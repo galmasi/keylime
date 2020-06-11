@@ -17,14 +17,11 @@ Architecture: any
 Depends:
   ${misc:Depends},
   ${python3:Depends},
-  ${shlibs:Depends},
   python3-simplejson,
   python3-zmq,
   python3-tornado,
   python3-distutils,
   python3-m2crypto
-Provides:
-  ${python3:Provides}
 Description: Open source TPM software for Bootstrapping and Maintaining Trust
   Keylime is a TPM based highly scalable remote boot attestation
   and runtime integrity measurement solution.

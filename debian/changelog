@@ -1,0 +1,112 @@
+keylime (5.6.2~2.gbpe0a1a9) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @e0a1a98017828a3af6ab5a8bcaf2bcb91372e5d1 **
+
+  [ 7058938+lukehinds@users.noreply.github.com ]
+  * Initial release
+
+  [ Kaifeng Wang ]
+  * Remove unused config loading in registrar (#298)
+
+  [ Ivan Font ]
+  * Remove git merge conflict markers (#301)
+
+  [ maugustosilva ]
+  * Fix for registrar and verifier running on different hosts (#299)
+
+  [ Vinay Dawani ]
+  *  Incorrect text of verifier, should be agent  (#305)
+
+  [ Kaifeng Wang ]
+  * Move major service entry & cli into keylime/cmd (#302)
+
+  [ Luke Hinds ]
+  * Perform clean up and archive old items (#307)
+
+  [ Charlie Munson ]
+  * Update README to show revised disclaimer (#312)
+
+  [ Ivan Font ]
+  * Catch regex exception for invalid exclude list (#303)
+
+  [ Kaifeng Wang ]
+  * Move db & tpm layers to separate directory (#306)
+  * Fixes requests to reactivate agent causes verifier exception (#311)
+  * Remove duplicated create_whitelist script (#316)
+
+  [ Luke Hinds ]
+  * Move to using SPDX Licence Format (#315)
+
+  [ Kaifeng Wang ]
+  * Update issue template (#318)
+  * Move provider scripts into cmd directory (#317)
+  * Remove unused config loading in registrar (#298)
+
+  [ Ivan Font ]
+  * Remove git merge conflict markers (#301)
+
+  [ maugustosilva ]
+  * Fix for registrar and verifier running on different hosts (#299)
+
+  [ Vinay Dawani ]
+  *  Incorrect text of verifier, should be agent  (#305)
+
+  [ Kaifeng Wang ]
+  * Move major service entry & cli into keylime/cmd (#302)
+
+  [ Luke Hinds ]
+  * Perform clean up and archive old items (#307)
+
+  [ Charlie Munson ]
+  * Update README to show revised disclaimer (#312)
+
+  [ Ivan Font ]
+  * Catch regex exception for invalid exclude list (#303)
+
+  [ Kaifeng Wang ]
+  * Move db & tpm layers to separate directory (#306)
+  * Fixes requests to reactivate agent causes verifier exception (#311)
+  * Remove duplicated create_whitelist script (#316)
+
+  [ Luke Hinds ]
+  * Move to using SPDX Licence Format (#315)
+
+  [ Kaifeng Wang ]
+  * Update issue template (#318)
+  * Move provider scripts into cmd directory (#317)
+  * Remove unused config loading in registrar (#298)
+
+  [ Ivan Font ]
+  * Remove git merge conflict markers (#301)
+
+  [ maugustosilva ]
+  * Fix for registrar and verifier running on different hosts (#299)
+
+  [ Vinay Dawani ]
+  *  Incorrect text of verifier, should be agent  (#305)
+
+  [ Kaifeng Wang ]
+  * Move major service entry & cli into keylime/cmd (#302)
+
+  [ Luke Hinds ]
+  * Perform clean up and archive old items (#307)
+
+  [ Charlie Munson ]
+  * Update README to show revised disclaimer (#312)
+
+  [ Ivan Font ]
+  * Catch regex exception for invalid exclude list (#303)
+
+  [ Kaifeng Wang ]
+  * Move db & tpm layers to separate directory (#306)
+  * Fixes requests to reactivate agent causes verifier exception (#311)
+  * Remove duplicated create_whitelist script (#316)
+
+  [ Luke Hinds ]
+  * Move to using SPDX Licence Format (#315)
+
+  [ Kaifeng Wang ]
+  * Update issue template (#318)
+  * Move provider scripts into cmd directory (#317)
+
+ --  <galmasi@localhost>  Thu, 11 Jun 2020 16:50:53 +0000

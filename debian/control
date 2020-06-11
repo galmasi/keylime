@@ -1,13 +1,31 @@
 Source: keylime
-Section: keylime
+Section: python
 Priority: extra
-Build-Depends: debhelper(>=9), dh-python, python3,python3-simplejson, python3-zmq, python3-tornado, python3-distutils
 Maintainer: Luke Hinds <7058938+lukehinds@users.noreply.github.com>
+Build-Depends:
+  debhelper(>=9),
+  dh-python,
+  python3,
+  python3-simplejson,
+  python3-zmq,
+  python3-tornado,
+  python3-distutils
+Homepage: https://github.com/keylime/keylime.git
 
-Package: keylime
-Architecture: all
-Depends: ${shlibs:Depends}, python3-simplejson, python3-zmq, python3-tornado, python3-distutils, python3-m2crypto
+Package: python3-keylime
+Architecture: any
+Depends:
+  ${misc:Depends},
+  ${python3:Depends},
+  ${shlibs:Depends},
+  python3-simplejson,
+  python3-zmq,
+  python3-tornado,
+  python3-distutils,
+  python3-m2crypto
+Provides:
+  ${python3:Provides}
 Description: Open source TPM software for Bootstrapping and Maintaining Trust
- Keylime is a TPM based highly scalable remote boot attestation
- and runtime integrity measurement solution.
+  Keylime is a TPM based highly scalable remote boot attestation
+  and runtime integrity measurement solution.
 

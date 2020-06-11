@@ -51,3 +51,10 @@ test/.auditing-*
 test/NVChip
 NVChip
 test/testdata.sqlite
+
+# debian packager
+debian/files
+debian/python3-keylime*
+debian/.debhelper
+.pybuild
+.eggs
